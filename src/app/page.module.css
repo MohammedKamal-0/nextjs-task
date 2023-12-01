@@ -72,3 +72,14 @@
     transform: rotate(360deg);
   }
 } 
+
+@media only screen and (max-width: 768px) {
+  .home .grid {
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px 26px;
+  margin-top: -50px;
+  position: relative;
+  margin-bottom: 60px;
+  }
+}
